@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Fruity Sevens</title>
+    <title>Unity WebGL Player | Fruity Sevens Bonus</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Fruity Sevens</div>
+        <div id="unity-build-title">Fruity Sevens Bonus</div>
       </div>
     </div>
     <script>
@@ -57,14 +57,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Fruity3x5Test.loader.js";
+      var loaderUrl = buildUrl + "/FruitNinjaBonus.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Fruity3x5Test.data",
-        frameworkUrl: buildUrl + "/Fruity3x5Test.framework.js",
-        codeUrl: buildUrl + "/Fruity3x5Test.wasm",
+        dataUrl: buildUrl + "/FruitNinjaBonus.data",
+        frameworkUrl: buildUrl + "/FruitNinjaBonus.framework.js",
+        codeUrl: buildUrl + "/FruitNinjaBonus.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Fruity Sevens",
+        productName: "Fruity Sevens Bonus",
         productVersion: "0.1",
         showBanner: unityShowBanner,
       };
@@ -98,7 +98,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Fruity3x5Test.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/FruitNinjaBonus.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
